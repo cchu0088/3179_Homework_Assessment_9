@@ -13,10 +13,10 @@
         "lookup": "properties.NAME",
         "from": {
           "data": {
-            "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/data/covid_10_10_2020.csv"
+            "url": "https://github.com/cchu0088/3179_Homework_Assessment_9/blob/main/data/deaths-from-cancer-who.csv"
           },
-          "key": "Country",
-          "fields": ["Active"]
+          "key": "Entity",
+          "fields": ["Total deaths from malignant neoplasms among both sexes"]
         }
       },
       {"calculate": "datum.Active + 0.1", "as": "Active Cases"}
