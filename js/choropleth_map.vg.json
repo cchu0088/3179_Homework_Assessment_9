@@ -19,7 +19,13 @@
         "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
         "encoding": {"tooltip": {"field": "note"}}
       },
-      
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/cchu0088/3179_Homework_Assessment_9/main/js/oceans.json",
+          "format": {"type": "topojson", "feature": "oceans"}
+        },
+        "mark": {"type": "geoshape", "fill": "skyblue"}
+      },
       {
         "transform": [
         {
